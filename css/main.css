@@ -438,6 +438,44 @@ section .btn a:hover{
 	margin-bottom: 100px;
 }
 
+.projects-slider img{
+	max-width: 100%;
+}
+
+.projects .slick-initialized .slick-slide{
+	margin: 0 5px;
+}
+
+.projects .project_item{
+	min-height: 550px;
+	border-radius: 10px;
+	position: relative;
+	text-decoration: none;
+}
+
+.slick-slide.slick-active .project_item p{
+	top: 10px;
+	left: 10px;
+	background: yellow;
+	display: inline-block;
+	bottom: auto;
+	padding: 10px;
+}
+
+.projects .project_item p{
+	position: absolute;
+	bottom: 10px;
+	width: 45%;
+	right: 20px;
+	color: #fff;
+	transition: all 0.2s ease 0.5s;
+}
+
+.projects-slider{
+	position: relative;
+}
+
+
 
 .map h2{
 	text-align: center;
